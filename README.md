@@ -1,8 +1,10 @@
 # WordPress Tweet Archive Importer
 
+Import your Twitter archive into a WordPress.
+
 ## importer.php
 
-It generated a mySQL insert query.
+It generates a mySQL insert query.
 
 Then use phpMyAdmin or mysql terminal to query into your database.
 
