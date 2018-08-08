@@ -83,7 +83,7 @@ function parse_files() {
 			$post_content .= $tweet_url;
 
 			// For each insert in the query
-			if ($i < $number_of_tweets) {
+			if ($i !== 0 && $i < $number_of_tweets) {
 				echo ",";
 			}
 

@@ -67,7 +67,7 @@ function parse_posts() {
         wp_reset_postdata();
 
 	$time_end = microtime(true);
-	echo "<br><br>It took me " . ($time_end - $time_start) . " to create " . $i . " posts";
+	echo "<br><br>It took me " . ($time_end - $time_start) . " to do this.";
 } // End of the parse_files()
 
 parse_posts();
