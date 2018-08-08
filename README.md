@@ -1,5 +1,17 @@
 # WordPress Tweet Archive Importer
 
+## importer.php
+
+It generated a mySQL insert query.
+
+Then use phpMyAdmin or mysql terminal to query into your database.
+
+## category.php
+
+Used to update the posts not in X categories. This is necessary because right after you do the mySQL insert the posts will not have category assigned.
+
+Use this script to assign a category to those posts by looking at posts not in certain categories.
+
 ## Configuration
 
 Set the values at the begining of the file.
