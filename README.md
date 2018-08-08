@@ -18,16 +18,20 @@ Use this script to assign a category to those posts by looking at posts not in c
 
 Set the values at the begining of the file.
 
-## What it does not import
+## What it does not do
 
 - No media
 - No lists
 - No likes
 - No DM's
 
+It will output a mySQL query for the wp_posts table.
+
 ## Potential risks
 
-- It could time out due PHP configuration if you're archive is too big
+It could timeout due mySQL configuration if you're query is too big (100K inserts? it really depends on the server).
+
+Always backup your database before executing queries!
 
 ## Disclaimer
 
