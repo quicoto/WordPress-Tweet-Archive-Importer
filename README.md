@@ -14,6 +14,9 @@ Used to update the posts not in X categories. This is necessary because right af
 
 Use this script to assign a category to those posts by looking at posts not in certain categories.
 
+**There's a small issue** where the more times you execute it the longer it takes. My guess is the queries take longer to search?
+I suppose we should create mySQL queries instead of using the WordPress function to call the database. For my case, 30K results (in batches of 500) in the end took about 80 seconds each batch. Way to much but well, it works.
+
 ## Configuration
 
 Set the values at the begining of the file.
